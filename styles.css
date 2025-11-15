@@ -1,0 +1,223 @@
+.topheader {
+  position: fixed;
+  background-color: rgb(0, 221, 255);
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.25rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.Menu-Horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.Menu-Horizontal li a {
+  text-decoration: none;
+  color: darkslategray;
+}
+.Menu-Vertical {
+  padding: 0;
+  background-color: rgb(0, 221, 255);
+  position: absolute;
+  list-style: none;
+  display: none;
+  width: 12.5rem;
+  border-radius: 1.25rem;
+}
+.Menu-Horizontal li a:hover {
+  color: blue;
+  font-size: 1.25rem;
+}
+.Menu-Horizontal li:hover .Menu-Vertical {
+  display: block;
+}
+.Menu-Vertical li a {
+  display: block;
+  text-decoration: none;
+  padding: 0.625rem;
+}
+/*SECCIONES*/
+.seccion-creditos {
+  padding: 3.75rem 1.25rem;
+  background-color: darkkhaki;
+}
+.cont-gral-creditos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+.cont-cred-texto {
+  flex: 1;
+}
+.cont-cred-texto h2 {
+  color: blue;
+  margin-bottom: 0.938rem;
+}
+.cont-cred-texto p {
+  color: black;
+  line-height: 1.5;
+}
+.cont-cred-img {
+  flex: 1;
+}
+.cont-cred-img img {
+  width: 100%;
+  max-width: 31.25rem;
+  border-radius: 0.625rem;
+}
+/*SECCION SEGUROS*/
+.seccion-seguros {
+  padding: 3.75rem 1.25rem;
+  background-color: gray;
+}
+.cont-gral-seguros {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75 rem;
+  margin: 0 auto;
+  gap: 42.5 rem;
+}
+.cont-seg-textos {
+  flex: 1;
+}
+.cont-seg-textos h2 {
+  color: blue;
+  line-height: 1.6;
+}
+.cont-seg-textos buttom {
+  margin-top: 1.25rem;
+  padding: 0.625rem 1.25rem;
+  background-color: orange;
+  color: black;
+  border: none;
+  border-radius: 0.625rem;
+  cursor: pointer;
+}
+.cont-seg-videos {
+  flex: 1;
+}
+.cont-seg-videos iframe {
+  width: 100%;
+  max-width: 31.25rem;
+  border-radius: 1.563rem;
+}
+.seccion-formulario {
+  background-color: cyan;
+  padding: 2.5rem;
+  border: 0.188;
+  border-radius: 0.625rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+.cont-gral-formulario {
+  background-color: burlywood;
+  padding: 1.875rem;
+  border: 0.125rem solid black;
+  border-radius: 0.5rem;
+  margin-bottom: 1.875rem;
+  min-width: 25rem;
+  max-width: 75rem;
+}
+.campo {
+  background-color: darkorchid;
+  padding: 0.938rem;
+  border: 0.094rem solid black;
+  border-radius: 0.313rem;
+  margin-bottom: 0.625rem;
+}
+.formulario label {
+  display: block;
+  font-weight: 56.25rem;
+  margin-bottom: 0.5rem;
+  color: black;
+}
+.formulario input[type="text"],
+.formulario select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 0.094rem solid blue;
+  box-sizing: border-box;
+}
+.Lista-checkbox,
+.Lista-radio {
+  list-style: none;
+  border: 0.063rem solid black;
+  padding: 0.5rem;
+  background-color: yellow;
+  border-radius: 0.313rem;
+}
+.formulario button {
+  background-color: chocolate;
+  padding: 0.625rem 1.25rem;
+  color: white;
+  border: 0.125rem solid blue;
+  cursor: pointer;
+  border-radius: 0.313rem;
+}
+.seccion-footer {
+  background-color: cyan;
+  color: blue;
+  padding: 2.5rem 1.25rem;
+}
+.cont-gral-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+.footer-info {
+  flex: 1;
+}
+.footer-info h3 {
+  color: blue;
+  margin-bottom: 0.938rem;
+}
+.footer-redes {
+  flex: 1;
+}
+.footer-redes h3 {
+  color: blue;
+  margin-bottom: 0.938rem;
+}
+.lista-redes {
+  list-style: none;
+  padding: 0;
+}
+.lista-redes li {
+  margin-bottom: 0.5rem;
+}
+.lista-redes li a {
+  text-decoration: none;
+  color: tomato;
+  font-weight: 900;
+}
+.fotter-politica {
+  flex: 1;
+}
+.lista-proteccion {
+  list-style: none;
+  padding: 0;
+}
+.lista-proteccion li {
+  margin-bottom: 0.5rem;
+}
+.lista-proteccion li a {
+  text-decoration: none;
+  color: blue;
+  font-weight: 900;
+}
