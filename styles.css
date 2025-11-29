@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Story+Script&display=swap");
 .topheader {
   position: fixed;
   background-color: white;
@@ -17,14 +18,17 @@ html {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  margin: 0 auto;
 }
 .Menu-Horizontal li a {
+  font-family: "Story Script", sans-serif;
   text-decoration: none;
   color: darkslategray;
+  font-size: 1.25rem;
 }
 .Menu-Vertical {
   padding: 0;
-  background-color: rgb(0, 221, 255);
+  background-color: rgb(248, 248, 248);
   position: absolute;
   list-style: none;
   display: none;

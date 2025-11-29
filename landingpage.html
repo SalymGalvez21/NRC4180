@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Web Site</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="menu_toggle.css" />
+  </head>
+  <body>
+    <!--LOGO.Y.MENUS-->
+    <nav class="topheader">
+      <a href="" class="logo">
+        <img height="40" width="" src="Imagenes/logo.png" alt="" />
+      </a>
+      <!-- BOTÓN HAMBURGUESA -->
+      <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+      <ul class="Menu-Horizontal">
+        <li><a href="#creditos">Credito</a></li>
+        <li>
+          <a href="">Cuentas</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Cuenta Sueldo</a></li>
+            <li><a href="">Club Emprendedor</a></li>
+            <li><a href="">Yape y Plin</a></li>
+            <li><a href="">Depositos</a></li>
+          </ul>
+        </li>
+        <li><a href="#seguro">Seguros</a></li>
+        <li><a href="#contactanos">Contactanos</a></li>
+      </ul>
+    </nav>
+    <!--SECCION CREDITOS-->
+    <section class="seccion-creditos" id="creditos">
+      <div class="cont-gral-creditos">
+        <div class="cont-cred-texto">
+          <h2>Seccion de Creditos</h2>
+          <p>
+            Un crédito es un préstamo de dinero o bienes que una entidad
+            (acreedor) entrega a otra (deudor) con la condición de que se
+            devuelva en el futuro, usualmente con el pago de intereses y otros
+            cargos. Los créditos se utilizan para financiar diversos proyectos,
+            como comprar una vivienda, un auto o cubrir gastos extraordinarios,
+            y pueden ofrecer diferentes niveles de flexibilidad según el tipo de
+            crédito.
+          </p>
+          <p>
+            El crédito es un mecanismo financiero donde hoy recibes dinero,
+            bienes o servicios de un acreedor, a cambio del compromiso de
+            devolver el valor total en el futuro, usualmente pagando una
+            cantidad adicional llamada intereses. En resumen: es la capacidad de
+            obtener algo ahora y pagarlo después, basándose en la confianza en
+            tu promesa de pago.
+          </p>
+        </div>
+        <div class="cont-cred-img">
+          <img src="Imagenes/credito.jpg" />
+        </div>
+      </div>
+    </section>
+    <!--SECCION SEGUROS-->
+    <section class="seccion-seguros" id="seguro">
+      <div class="cont-gral-seguros">
+        <div class="cont-seg-textos">
+          <h2>Seccion Seguros</h2>
+          <p>
+            Los seguros son contratos (pólizas) en los que una aseguradora se
+            compromete a indemnizar a una persona o empresa por un daño o
+            pérdida económica en caso de un siniestro, a cambio del pago
+            periódico de una prima. Actúan como una herramienta de previsión
+            financiera que protege la vida, la salud y los bienes de las
+            personas ante sucesos inesperados, brindando estabilidad y
+            tranquilidad.
+          </p>
+          <p>
+            Un crédito es un préstamo de dinero. Funciona de la siguiente
+            manera: alguien, generalmente un banco o una entidad financiera, te
+            presta una suma de dinero. A cambio, tú adquieres el compromiso de
+            devolver esa cantidad en un período de tiempo preestablecido, además
+            de pagar un costo adicional por el uso del dinero, conocido como
+            interés. Es, en esencia, una herramienta que te permite adquirir
+            bienes o servicios en el presente y pagarlos de forma diferida en el
+            futuro, ya sea para fines personales (consumo, vivienda, estudios) o
+            empresariales (inversión, operaciones).
+          </p>
+          <buttom>Leer más...</buttom>
+        </div>
+
+        <div class="cont-seg-videos">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/vkz3v3tvh9M?si=MnG-ReQjdi5g5tNM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!--Formulario-->
+    <section class="seccion-formulario" id="contactanos">
+      <div class="cont-gral-formulario">
+        <h2>Formulario de Registro</h2>
+        <p>Complete todos los datos y sus preferencias</p>
+        <form class="formulario">
+          <div class="campo">
+            <label form="nombre">Nombres Completos: </label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingrese su nombre"
+            />
+          </div>
+          <!--Lista Desplegable-->
+          <div class="campo">
+            <label for="pais">Pais:</label>
+            <select id="pais" name="pais">
+              <option value="">Seleccione un Pais</option>
+              <option value="Peru">Peru</option>
+              <option value="Irak">irak</option>
+              <option value="Colombia">Colombia</option>
+            </select>
+          </div>
+          <!--Checkbox-->
+          <div class="campo">
+            <label>Intereses:</label>
+            <ul class="Lista-checkbox">
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="intereses"
+                    value="tecnologia"
+                  />Tecnologia</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="intereses"
+                    value="educacion"
+                  />Educacion</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="intereses"
+                    value="idiomas"
+                  />Idiomas</label
+                >
+              </li>
+            </ul>
+          </div>
+          <!--radio button-->
+          <div class="campo">
+            <label>Genero:</label>
+            <ul class="Lista-radio">
+              <li>
+                <label
+                  ><input
+                    type="radio"
+                    name="genero"
+                    value="masculino"
+                  />Masculino</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="radio"
+                    name="genero"
+                    value="femenino"
+                  />Femenino</label
+                >
+              </li>
+            </ul>
+          </div>
+          <!--radio status-->
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <!--PIE DE PAGINA-->
+    <section class="seccion-footer">
+      <div class="cont-gral-footer">
+        <div class="footer-info">
+          <h3>Acerca de Nosotros</h3>
+          <p>
+            BBVA (Banco Bilbao Vizcaya Argentaria) es un grupo global de
+            servicios financieros con una visión centrada en el cliente, fundado
+            en 1857 en Bilbao, España.
+          </p>
+          <p>&copy: 2025 Todos los derechos reservados</p>
+        </div>
+        <div class="footer-redes">
+          <h3>Nuestras Redes</h3>
+          <ul class="lista-redes">
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Telegram</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="footer-politica">
+          <h3>Proteccion de datos</h3>
+          <ul class="lista-proteccion">
+            <li>
+              <a href="Imagenes/ley.pdf" target="_blank"
+                >Ley proteccion de datos</a
+              >
+            </li>
+            <li><a href="">Politica</a></li>
+            <li><a href="">Normas</a></li>
+            <li><a href="">Reglamentos</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script src="menu_toggle.js"></script>
+  </body>
+</html>
